@@ -1,18 +1,12 @@
 package com.bayzat.bayzat;
 
-import android.app.Activity;
 import android.os.Bundle;
 
+import com.bayzat.bayzat.basic.BaseActivity;
+
 /**
- * Created by Michael on 02.06.2015.
+ * Created by Michael on 08.06.2015.
  */
-public class MainActivity extends Activity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
+public class MainActivity extends BaseActivity {
 
 }
