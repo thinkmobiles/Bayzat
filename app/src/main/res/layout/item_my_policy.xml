@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/margin_between_text_vertical_and_edge_IMP"
+    android:layout_marginRight="@dimen/margin_between_text_vertical_and_edge_IMP">
+
+    <TextView
+        android:id="@+id/tvServiceName_IMP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_bottom_margin_IMP"
+        android:text="Accident and emergency treatment in USA"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_service_name_IMP"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+
+    <RelativeLayout
+        android:id="@+id/rlServicesContainer_IMP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_between_text_vertical_and_edge_IMP"
+        android:layout_marginBottom="@dimen/top_bottom_margin_IMP">
+
+        <com.bayzat.bayzat.ui.custom_views.OfferedServicesView
+            android:id="@+id/cvOfferedServices_IMP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/tvPreAuthorized_IMP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/cvOfferedServices_IMP"
+            android:layout_centerVertical="true"
+            android:text="Preauthorized"
+            android:textColor="@color/grey"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_service_name_IMP"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="half_padding">4dp</dimen>
+    <dimen name="padding">8dp</dimen>
+
+    <!--MyPolice-->
+    <dimen name="size_service_name_IMP">18sp</dimen>
+    <dimen name="margin_between_text_vertical_and_edge_IMP">8dp</dimen>
+    <dimen name="top_bottom_margin_IMP">16dp</dimen>
+</resources>

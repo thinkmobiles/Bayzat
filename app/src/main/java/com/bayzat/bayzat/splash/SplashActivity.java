@@ -3,7 +3,7 @@ package com.bayzat.bayzat.splash;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.bayzat.bayzat.MainActivity;
+import com.bayzat.bayzat.ui.activities.MainActivity;
 import com.bayzat.bayzat.R;
 import com.bayzat.bayzat.basic.BaseActivity;
 

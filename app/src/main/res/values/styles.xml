@@ -7,4 +7,27 @@
         <item name="colorPrimary">@color/app_color</item>
     </style>
 
+    <style name="RadioButton_FMP">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/selector_my_policy_tab</item>
+        <item name="android:textColor">@drawable/selector_my_policy_tab_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ServicesOfferedView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/half_padding</item>
+    </style>
+
+    <style name="Divider_FMP">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/grey</item>
+    </style>
+
 </resources>
