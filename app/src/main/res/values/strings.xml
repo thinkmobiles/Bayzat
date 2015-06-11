@@ -4,4 +4,9 @@
     <!-- Activities tags -->
     <string name="activity_splash">Splash Activity</string>
     <string name="activity_main">Main Activity</string>
+
+    <!--MyPolicyFragment-->
+    <string name="included_FMP">Included</string>
+    <string name="excluded_FMP">Excluded</string>
+    <string name="preauthorized_FMP">Preauthorized</string>
 </resources>
