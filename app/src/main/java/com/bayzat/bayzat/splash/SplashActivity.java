@@ -22,6 +22,9 @@ public class SplashActivity extends BaseActivity {
         public void run() {
             finish();
             handleToActivity(MainActivity.class);
+
+
+
         }
     };
 
